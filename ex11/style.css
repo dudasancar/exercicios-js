@@ -1,0 +1,47 @@
+.caixa1 {
+    background-color: aqua;
+    cursor: pointer;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+}
+
+.caixa2 {
+    background-color: blueviolet;
+    cursor: pointer;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+}
+
+.caixa3 {
+    background-color: chartreuse;
+    cursor: pointer;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+}
+
+.caixa4 {
+    background-color: crimson;
+    cursor: pointer;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+}
+
+.caixa5 {
+    background-color: darkblue;
+    cursor: pointer;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+}
+
+.caixa6 {
+    background-color: deeppink;
+    cursor: pointer;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+}
