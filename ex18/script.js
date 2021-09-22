@@ -12,7 +12,7 @@ var mediaPesoF;
 for(i = 1; i <= 10; i++) {
     idade = parseInt(prompt("Sua idade["+i+"]:"));
     peso = parseInt(prompt("Seu peso["+i+"]:"));
-    sexo = prompt("Sexo: M ou F:");
+    sexo = prompt("Sexo M ou F:");
 
     if(sexo == 'M') {                    
         quantM++;

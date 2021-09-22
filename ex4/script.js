@@ -1,10 +1,9 @@
+function idade() {
     var idade1 = document.querySelector(".idade1").value;
     var idade2 = document.querySelector(".idade2").value;
     var idade3 = document.querySelector(".idade3").value;
     var idade4 = document.querySelector(".idade4").value;
     var idade5 = document.querySelector(".idade5").value;
-
-function idade() {
 
     if(idade1 >= 18) {
         var maior1 = idade1;
@@ -36,14 +35,13 @@ function idade() {
         var menor5 = idade5;
     }
 
-    
+    var maiores = [];
+    var menores = [];
     maiores.push(maior1, maior2, maior3, maior4, maior5);
     menores.push(menor1, menor2, menor3, menor4, menor5);
 
+    console.log()
 
-    var maioresResultado = maiores.lenght;
-    var menoresResultado = menores.lenght;
-
-    document.querySelector('.maior').innerHTML = maioresResultado;
-    document.querySelector('.menor').innerHTML = menoresResultado;
+    document.querySelector('.maior').innerHTML = 'Maiores de idade: ' + maiores;
+    document.querySelector('.menor').innerHTML = 'Menores de idade: ' + menores.length;
 }
