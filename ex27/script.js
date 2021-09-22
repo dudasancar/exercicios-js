@@ -1,7 +1,8 @@
-function maioridade(ano) {
+function maioridade() {
+    var ano = document.querySelector('.input').value;
     if(ano >= 2003) {
-        console.log('Você é maior de idade')
+        document.querySelector('.maioridade').innerHTML = "Você é maior de idade";
     } else {
-        console.log('Você é menor de idade')
+        document.querySelector('.maioridade').innerHTML = "Você é menor de idade";
     }
 }

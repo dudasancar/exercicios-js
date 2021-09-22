@@ -1,5 +1,5 @@
 function limpar() {
-    var cpf = document.querySelector('.cpfPoint').value;
+    var cpf = document.getElementById('cpfPoint').value;
     var cpfSemPonto = cpf.replace('.', '').replace('.', '').replace('-', '');
-    document.querySelector('.cpfFormatado').innerHTML = cpfSemPonto;
+    document.getElementById('cpfFormatado').innerHTML = cpfSemPonto;
 }
